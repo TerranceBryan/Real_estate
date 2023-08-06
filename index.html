@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Rental House Site</title>
+    <!-- font-awesome Cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/styling/main.css">
+    <link rel="stylesheet" href="assets/styling/style.css">
+    <link rel="stylesheet" href="assets/styling/responsive.css">
+</head>
+
+<body>
+
+    <header class="header-sect">
+        <div class="logo">
+            <a href="#"><i class="fas fa-map-marker"></i>Real Estate</a>
+        </div>
+
+        <nav class="navbar-sect">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#property">property</a></li>
+                <li><a href="#pages">pages</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#tel"> <i class="fas fa-phone"></i> (+254) 456 8899</a></li>
+                <li> <i class="fas fa-user"></i> <a href="#" class="btn"><i class="fas fa-plus-circle"></i>Create Using</a></li>
+            </ul>
+        </nav>
+
+
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+        
+    </header>
+
+
+    <section class="hero" id="hero">
+
+        <div class="hero-container">
+            <div class="hero-text">
+                <h3 class="third-header">It's great to be home!</h3>
+                <h1 class="first-header">Find your future home</h1>
+            </div>
+    
+            <form action="">
+                <div class="hero-search">
+                    <div class="hero-search-item">
+                        <h3>Type</h3>
+                        <select  name="" id="" required>
+                            <option disabled hidden selected>House Type</option>
+                            <option>Ready To Move</option>
+                            <option>Under Construction</option>
+                            <option>Furnished</option>
+                            <option>Semi-Furnished</option>
+                            <option>Unfurnished</option>
+                        </select>
+                    </div>
+                    <div class="hero-search-item">
+                        <h3>Room</h3>
+                        <select name="" id="" required>
+                            <option disabled hidden selected>Room</option>
+                            <option>1 room</option>
+                            <option>2 rooms</option>
+                            <option>3 rooms</option>
+                            <option>4 rooms</option>
+                            <option>5 rooms</option>
+                        </select>
+                    </div>
+                    <div class="hero-search-item">
+                        <h3>Location</h3>
+                        <select  name="" id="" required>
+                            <option disabled hidden selected>Counties</option>
+                            <option>Nairobi</option>
+                            <option>Kiambu</option>
+                            <option>Nyeri</option>
+                            <option>Murang'a</option>
+                        </select>
+                    </div>
+                    <div class="hero-search-item">
+                        <h3>Search</h3>
+                        <input type="text" placeholder="Enter Keyword">
+                    </div>
+                </div>
+                <div class="search-button">
+                    <button type="submit" class="btn"><i class="fas fa-search"></i>Search</button>
+                </div>
+            </form>
+        </div>
+
+    </section> 
+
+
+    <section id="property" class="property pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="row-text-box col-6">
+                    <h3 class="second-header mb-1">Our Latest Properties</h3>
+                    <p class="paragraph mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#carouselIndicators" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3 " href="#carouselIndicators" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="col-12">
+                    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+            
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                
+                                <div class="property-box col-md-4 mb-3">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img class="img-fluid img-responsive" alt="property 1" src="images/properties/property1.jpg">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">New Appartment Nice View</h4>
+                                            <p class="card-text">Karen, Nairobi, KE, Kenya</p>
+                                        </div>
+                                        <div class="card-details">
+                                            <h3><i class="fas fa-expand"></i> 3500 sqft</h3>
+                                            <h3><i class="fas fa-bed"></i> 2 beds</h3>
+                                            <h3><i class="fas fa-bath"></i> Garage</h3>
+                                        </div>
+                                        <div class="property-buttons">
+                                            <a href="#" class="property-btn">request info</a>
+                                            <a href="#" class="property-btn">view details</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="property-box col-md-4 mb-3">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img class="img-fluid img-responsive" alt="property 2" src="images/properties/property2.jpg">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Fancy & Spacious Room</h4>
+                                            <p class="card-text">murang'a, Murang'a, KE, Kenya</p>
+                                        </div>
+                                        <div class="card-details">
+                                            <h3><i class="fas fa-expand"></i> 3500 sqft</h3>
+                                            <h3><i class="fas fa-bed"></i> 2 beds</h3>
+                                            <h3><i class="fas fa-bath"></i> Garage</h3>
+                                        </div>
+                                        <div class="property-buttons">
+                                            <a href="#" class="property-btn">request info</a>
+                                            <a href="#" class="property-btn">view details</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="property-box col-md-4 mb-3">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img class="img-fluid img-responsive" alt="property 3" src="images/properties/property3.jpg">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">New Caledonian Whorf</h4>
+                                            <p class="card-text">Karen, Nairobi, KE, Kenya</p>
+                                        </div>
+                                        <div class="card-details">
+                                            <h3><i class="fas fa-expand"></i> 3500 sqft</h3>
+                                            <h3><i class="fas fa-bed"></i> 2 beds</h3>
+                                            <h3><i class="fas fa-bath"></i> Garage</h3>
+                                        </div>
+                                        <div class="property-buttons">
+                                            <a href="#" class="property-btn">request info</a>
+                                            <a href="#" class="property-btn">view details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                
+                                <div class="property-box col-md-4 mb-3">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img class="img-fluid img-responsive" alt="property 4" src="images/properties/property4.jpg">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Spacious Family Home</h4>
+                                            <p class="card-text">Juja, Kiambu, KE, Kenya</p>
+                                        </div>
+                                        <div class="card-details">
+                                            <h3><i class="fas fa-expand"></i> 3500 sqft</h3>
+                                            <h3><i class="fas fa-bed"></i> 2 beds</h3>
+                                            <h3><i class="fas fa-bath"></i> Garage</h3>
+                                        </div>
+                                        <div class="property-buttons">
+                                            <a href="#" class="property-btn">request info</a>
+                                            <a href="#" class="property-btn">view details</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="property-box col-md-4 mb-3">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img class="img-fluid img-responsive" alt="property 5" src="images/properties/property5.jpeg">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">New Appartment Nice View</h4>
+                                            <p class="card-text">Karen, Nairobi, KE, Kenya</p>
+                                        </div>
+                                        <div class="card-details">
+                                            <h3><i class="fas fa-expand"></i> 3500 sqft</h3>
+                                            <h3><i class="fas fa-bed"></i> 2 beds</h3>
+                                            <h3><i class="fas fa-bath"></i> Garage</h3>
+                                        </div>
+                                        <div class="property-buttons">
+                                            <a href="#" class="property-btn">request info</a>
+                                            <a href="#" class="property-btn">view details</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="property-box col-md-4 mb-3">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img class="img-fluid img-responsive" alt="property 6" src="images/properties/property6.jpg">
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">New Appartment Nice View</h4>
+                                            <p class="card-text">Karen, Nairobi, KE, Kenya</p>
+                                        </div>
+                                        <div class="card-details">
+                                            <h3><i class="fas fa-expand"></i> 3500 sqft</h3>
+                                            <h3><i class="fas fa-bed"></i> 2 beds</h3>
+                                            <h3><i class="fas fa-bath"></i> Garage</h3>
+                                        </div>
+                                        <div class="property-buttons">
+                                            <a href="#" class="property-btn">request info</a>
+                                            <a href="#" class="property-btn">view details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="explore-container">
+            <div class="explore-heading text-center mb-5">
+                <h3 class="second-header mb-1 text-light">Explore Our Properties</h3>
+                <p class="paragraph mb-3 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+    
+                    <div class="col-6 text-right angle">
+                        <a class="btn btn-primary mb-3 mr-1" href="#carouselIndicators2" role="button" data-slide="prev">
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                        <a class="btn btn-primary mb-3 " href="#carouselIndicators2" role="button" data-slide="next">
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+    
+                    <div class="col-12">
+                        <div id="carouselIndicators2" class="carousel slide" data-ride="carousel">
+                
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                    
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 1" src="images/explore/explore1.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 2" src="images/explore/explore2.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 3" src="images/explore/explore3.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 4" src="images/explore/explore4.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                </div>
+                            </div>
+    
+                            <div class="carousel-item">
+                                <div class="row">
+                    
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 5" src="images/explore/explore5.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 6" src="images/explore/explore6.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 7" src="images/explore/explore7.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 8" src="images/explore/explore8.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                    
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 9" src="images/explore/explore5.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 10" src="images/explore/explore3.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 11" src="images/explore/explore1.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="property-box col-md-3 mb-3">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img class="img-fluid img-responsive" alt="Explore 12" src="images/explore/explore6.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="pages" id="pages">
+        <h2 class="second-header">Guest Reviews</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <img src="images/testimonials/testimonial1.jpg" alt="First testimonial">
+                <div class="testimonial-card-body">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="paragraph">I was in Kenya for the first time and stayed by chance in a winder cottage
+                        in Karen. I must say that was an unforgettable experience !
+                    </p>
+                    <h3><span>Brian Griffin</span></h3>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="images/testimonials/testimonial2.jpg" alt="Second testimonial">
+                <div class="testimonial-card-body">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="paragraph">I'll never forget our summer stay at this estate in kenya! Perfect service, amazing nature views,
+                         I enjoyed the stay and would recommend it to everyone. Moreover, there are a lot of interesting things to visit and 
+                         do-fest, food tours, castles tours and much more!
+                    </p>
+                    <h3> <i class="line"></i> <span>Meriel</span></h3>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="images/testimonials/testimonial3.jpg" alt="Third testimonial">
+                <div class="testimonial-card-body">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="paragraph">I was visiting murang'a with my family and friends and stayed at the real estate - this 
+                        was amazing and unforgettable stay! A lot of space, and just a peaceful rest.
+                    </p>
+                    <h3> <i class="line"></i> <span>Glenn Quagmire</span></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog">
+            <h2 class="second-header">Our Blogs</h2>
+            <div class="container">
+                <div class="blog-card">
+                    <div class="card-header">
+                        <img class="img-responsive" src="images/blog/blog1.jpg" alt="Luxurious House">
+                        <h4>Luxurious House</h4>
+                    </div>
+                    <div class="card-user-date">
+                        <div class="user">
+                            <p> <i class="fas fa-user"></i> Peter Griffin</p>
+                        </div>
+                        <div class="date">
+                            <p> <i class="fas fa-calendar"></i> 31<sup>st</sup> July, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-text-box">
+                        <h3 class="tertiary-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quo odio harum.</p>
+                    </div>
+                    
+                    <a href="#" class="blog-btn">Read More <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+    
+                <div class="blog-card">
+                    <div class="card-header">
+                        <img class="img-responsive" src="images/blog/blog2.jpg" alt="Family House">
+                        <h4>Family House</h4>
+                    </div>
+                    <div class="card-user-date">
+                        <div class="user">
+                            <p> <i class="fas fa-user"></i> Lois Griffin</p>
+                        </div>
+                        <div class="date">
+                            <p> <i class="fas fa-calendar"></i> 1<sup>st</sup> August, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-text-box">
+                        <h3 class="tertiary-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quo odio harum.</p>
+                    </div>
+                    
+                    <a href="#" class="blog-btn">Read More <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+    
+                <div class="blog-card">
+                    <div class="card-header">
+                        <img class="img-responsive" src="images/blog/blog3.jpg" alt="Honeymoon room">
+                        <h4>Honeymoon room</h4>
+                    </div>
+                    <div class="card-user-date">
+                        <div class="user">
+                            <p> <i class="fas fa-user"></i> Meg Griffin</p>
+                        </div>
+                        <div class="date">
+                            <p> <i class="fas fa-calendar"></i> 2<sup>nd</sup> August, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-text-box">
+                        <h3 class="tertiary-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quo odio harum.</p>
+                    </div>
+                    
+                    <a href="#" class="blog-btn">Read More <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+    
+                <div class="blog-card">
+                    <div class="card-header">
+                        <img class="img-responsive" src="images/blog/blog4.jpg" alt="Appartment">
+                        <h4>Fancy Appartment</h4>
+                    </div>
+                    <div class="card-user-date">
+                        <div class="user">
+                            <p> <i class="fas fa-user"></i> Peter Griffin</p>
+                        </div>
+                        <div class="date">
+                            <p> <i class="fas fa-calendar"></i> 3<sup>rd</sup> August, 2023</p>
+                        </div>
+                    </div>
+                    <div class="card-text-box">
+                        <h3 class="tertiary-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quo odio harum.</p>
+                    </div>
+                    
+                    <a href="#" class="blog-btn">Read More <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-text-box">
+                <h2>Reach Us If You Have Any Query</h2>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Asperiores autem nihil, officia similique ipsum quisquam tempora ratione
+                    dolorem fugit rerum, enim maiores.
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-container">
+            <div class="form-box">
+                <form action="">
+                    <div class="form-box-item">
+                        <label for="uname">NAME</label>
+                        <input type="text" id="uname" name="uname" placeholder="Your Name">
+                    </div>
+                    <div class="form-box-item">
+                        <label for="number">PHONE NUMBER</label>
+                        <input type="text" id="number" name="number" placeholder="+254........">
+                    </div>
+                    <div class="form-box-item">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" placeholder="abc@example.com">
+                    </div>
+                    <div class="form-box-item">
+                        <label for="message">MESSAGE</label>
+                        <textarea id="message" name="message" placeholder="Enter your Message"></textarea>
+                    </div>
+                    <button type="submit" class="contact-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="stats">
+        <div class="stat-item">
+            <h1><span>6,180</span></h1>
+            <p class="paragraph">Home For Sale</p>
+        </div>
+        <div class="stat-item">
+            <h1><span>809</span></h1>
+            <p class="paragraph">Open Houses</p>
+        </div>
+        <div class="stat-item">
+            <h1><span>580</span></h1>
+            <p class="paragraph">Recently Sold</p>
+        </div>
+        <div class="stat-item">
+            <h1><span>1,809</span></h1>
+            <p class="paragraph">Price Reduced</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>     
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+</body>
+
+<script src="assets/main.js"></script>
+
+<footer>
+    <div class="footer-box">
+        <div class="footer-container">
+            <h2>Contact Us</h2>
+            <div class="footer-content-box">
+                <ul>
+                    <li> <a href=""><i class="fas fa-map"></i> Nairobi, Kenya</a></li>
+                    <li> <a href=""><i class="fas fa-phone"></i> (+254) 456 8899</a></li>
+                    <li> <a href=""><i class="fas fa-envelope"></i> support@yahoo.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-sites">
+                <a href="#" class="fas fa-facebook-f"></a>
+                <a href="#" class="fas fa-twitter"></a>
+                <a href="#" class="fas fa-instagram"></a>
+                <a href="#" class="fas fa-linkedin-square"></a>
+            </div>
+        </div>
+    
+        <div class="footer-container">
+            <h2>Discover</h2>
+            <div class="footer-content-box">
+                <ul>
+                    <li> <a href="#">Nairobi</a></li>
+                    <li> <a href="#">Kiambu</a></li>
+                    <li> <a href="#">Nyeri</a></li>
+                    <li> <a href="#">Murang'a</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="footer-container">
+            <h2>Quick Links</h2>
+            <div class="footer-content-box">
+                <ul>
+                    <li> <a href="#">About Us</a></li>
+                    <li> <a href="#">Terms & Conditions</a></li>
+                    <li> <a href="#">User's Guide</a></li>
+                    <li> <a href="#">Support Center</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="footer-container">
+            <h2> Subscribe </h2>
+            <div class="footer-content-box">
+                <ul>
+                    <p class="paragraph">Subscribe to get our updates</p>
+                    <li class="email-flex">
+                        <input type="email" placeholder="Enter your email" id="email" name="email">
+                        <button class="fas fa-send" type="submit"></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p style="text-align: center;">Copyright &copy; 2023. | All Rights Reserved </p>
+
+</footer>
+
+</html>

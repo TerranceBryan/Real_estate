@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root{
+    --main-color: #012706;
+    --light-color: #088d1a;
+    --box-shadow: 1px 1px 1rem rgba(10, 10, 10, .1);
+    --grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    --gap: 2rem;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+span{
+    color: var(--main-color);
+    font-weight: bold;
+}
+section{
+    padding: 5rem 10%;
+}
+.fas{
+    margin-right: 1rem;
+}
+.first-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.second-header{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #333;
+    font-weight: bold;
+}
+.third-header{
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: capitalize;
+}
+.paragraph{
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #555;
+}
+.btn{
+    background-color: var(--main-color);
+    padding: 1.4rem;
+    font-size: 1.3rem;
+    border-radius: 9px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: #055817;
+    transition: .2s linear;
+}
+#menu-btn{
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: none;
+}
+.img-responsive{
+    width: 100%;
+}
+
+
+.container,
+.testimonial-container{
+    display: flex;
+    gap: var(--gap);
+}
+
+.angle{
+    display: flex;
+}
+button{
+    cursor: pointer;
+}

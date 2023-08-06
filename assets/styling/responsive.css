@@ -1,0 +1,115 @@
+
+@media (max-width: 992px){
+    section{
+        padding: 3rem 5%;
+    }
+    .header-sect{
+        padding: 1.5rem;
+    }
+    .navbar-sect ul li{
+        margin: 1rem;
+        font-size: 1rem;
+    }
+    .hero{
+        height: 60vh;
+    }
+}
+
+
+@media (max-width: 768px){
+    html{
+        font-size: 58%;
+    }
+    #menu-btn{
+        transition: .2s linear;
+        display: inline-block;
+    }
+    .navbar-sect{
+        background-color: #012706c5;
+        border-top: 2rem solid #0127067e;
+        position: absolute;
+        top:99%; left: 0; right: 0;
+        transition: .3s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .navbar-sect ul{
+        display: block;
+    }
+    .navbar-sect ul li{
+        text-align: center;
+        margin: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .fa-times{
+        transform: rotate(180deg);
+    }
+    .navbar-sect.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .hero{
+        height: 100%;
+        padding-bottom: 5rem;
+    }
+    .hero form{
+        display: block;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0;
+    }
+    .search-button button{
+        float: none;
+        border-radius: 0px;
+        position: relative;
+        left: 40%;
+        margin-bottom: 2rem;
+    }
+    form .hero-search{
+        display: block;
+        padding: .5rem;
+    }
+    .hero-search-item select, input{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .hero-search-item h3{
+        left: 0;
+        margin-bottom: .8rem;
+        font-size: 1.4rem;
+    }
+    .container,
+    .testimonial-container{
+        flex-wrap: wrap;
+    }
+    .blog-card{
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 600px){
+    html{
+        font-size: 55%;
+    }
+    .search-button button{
+        border-radius: 0px;
+        left: 0;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+    footer .footer-box{
+        flex-wrap: wrap;
+    }
+    .footer-container{
+        margin: 0 auto;
+    }
+    .footer-container h2{
+        margin-top: 3rem;
+    }
+}
+
+
+
+
+
+
